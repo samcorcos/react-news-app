@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-import Hello from './hello.jsx';
+import Navbar from './nav.jsx';
+import Feed from './feed.jsx';
 
 export default class App extends Component {
   render() {
     return(
       <div>
-        <h1>app time</h1>
-        <Hello />
+        <Navbar />
+        <Feed />
       </div>
     )
   }
