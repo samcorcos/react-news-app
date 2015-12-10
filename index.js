@@ -1,1 +1,1 @@
-import Hello from './app/hello.jsx';
+var router = require('./app/router.jsx')
